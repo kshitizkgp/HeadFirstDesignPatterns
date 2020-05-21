@@ -1,4 +1,4 @@
-package ChapterTwo.custom;
+package chapterTwo.custom;
 
 public class CurrentConditionsDisplay implements Observer, DisplayElement {
   private float temperature;

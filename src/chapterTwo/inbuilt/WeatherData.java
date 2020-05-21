@@ -1,4 +1,4 @@
-package ChapterTwo.inbuilt;
+package chapterTwo.inbuilt;
 
 import java.util.Observable;
 

@@ -1,9 +1,9 @@
-package ChapterTwo.inbuilt;
+package chapterTwo.inbuilt;
 
 import java.util.Observable;
 import java.util.Observer;
 
-import ChapterTwo.custom.DisplayElement;
+import chapterTwo.custom.DisplayElement;
 
 public class CurrentConditionsDisplay implements Observer, DisplayElement {
   Observable observable;

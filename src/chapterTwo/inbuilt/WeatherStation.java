@@ -1,4 +1,4 @@
-package ChapterTwo.custom;
+package chapterTwo.inbuilt;
 
 public class WeatherStation {
   public static void main(String[] args) {
