@@ -1,4 +1,4 @@
-package chapterTwo.custom;
+package chapterTwoObserverPattern.custom;
 
 import java.util.ArrayList;
 

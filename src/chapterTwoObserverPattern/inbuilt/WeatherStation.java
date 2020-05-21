@@ -1,4 +1,4 @@
-package chapterTwo.inbuilt;
+package chapterTwoObserverPattern.inbuilt;
 
 public class WeatherStation {
   public static void main(String[] args) {

@@ -1,4 +1,4 @@
-package chapterOne;
+package chapterOneStrategyPattern;
 
 public class FlyWithWings implements FlyBehavior {
 

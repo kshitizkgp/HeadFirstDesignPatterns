@@ -1,4 +1,4 @@
-package chapterTwo.custom;
+package chapterTwoObserverPattern.custom;
 
 public interface DisplayElement {
   public void display();

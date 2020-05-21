@@ -1,4 +1,4 @@
-package chapterTwo.custom;
+package chapterTwoObserverPattern.custom;
 
 public class WeatherStation {
   public static void main(String[] args) {
