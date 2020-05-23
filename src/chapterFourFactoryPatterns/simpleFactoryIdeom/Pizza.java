@@ -1,4 +1,4 @@
-package chapterFourFactoryPattern.FactoryMethodPattern;
+package chapterFourFactoryPatterns.simpleFactoryIdeom;
 
 import java.util.ArrayList;
 

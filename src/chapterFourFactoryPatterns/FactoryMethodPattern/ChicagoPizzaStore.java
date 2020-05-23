@@ -1,4 +1,4 @@
-package chapterFourFactoryPattern.FactoryMethodPattern;
+package chapterFourFactoryPatterns.FactoryMethodPattern;
 
 public class ChicagoPizzaStore extends PizzaStore {
   public Pizza createPizza(String item) {

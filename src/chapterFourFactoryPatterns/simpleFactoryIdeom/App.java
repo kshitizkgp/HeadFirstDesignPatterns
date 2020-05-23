@@ -1,4 +1,4 @@
-package chapterFourFactoryPattern.simpleFactoryIdeom;
+package chapterFourFactoryPatterns.simpleFactoryIdeom;
 
 public class App {
 
