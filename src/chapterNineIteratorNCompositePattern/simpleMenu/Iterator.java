@@ -1,4 +1,4 @@
-package chapterNineIteratorNCompositePattern;
+package chapterNineIteratorNCompositePattern.simpleMenu;
 
 public interface Iterator {
    boolean hasNext();

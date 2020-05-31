@@ -1,4 +1,4 @@
-package chapterNineIteratorNCompositePattern;
+package chapterNineIteratorNCompositePattern.simpleMenu;
 
 import java.util.ArrayList;
 
