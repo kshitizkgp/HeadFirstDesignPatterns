@@ -1,4 +1,5 @@
 package chapterNineIteratorNCompositePattern;
+import java.util.Iterator;
 
 public class Waitress {
 
