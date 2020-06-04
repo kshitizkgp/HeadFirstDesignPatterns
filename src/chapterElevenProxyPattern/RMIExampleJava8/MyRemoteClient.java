@@ -7,10 +7,10 @@ public class MyRemoteClient {
 
   public static void main(String[] args) {
     String host = (args.length < 1) ? null : args[0];
-    new MyRemoteClient().gokola(host, 0);
+    new MyRemoteClient().go(host);
   }
 
-  public void gokola(String host, int x) {
+  public void go(String host) {
     try {
 //      MyRemote service = (MyRemote) Naming.lookup("rmi://127.0.0.1/RemoteHello");
 //      String s = service.sayHello();
