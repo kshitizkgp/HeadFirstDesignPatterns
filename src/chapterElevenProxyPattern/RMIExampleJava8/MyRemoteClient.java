@@ -12,9 +12,11 @@ public class MyRemoteClient {
 
   public void go(String host) {
     try {
-//      MyRemote service = (MyRemote) Naming.lookup("rmi://127.0.0.1/RemoteHello");
-//      String s = service.sayHello();
-//      System.out.println(s);
+/*
+      MyRemote service = (MyRemote) Naming.lookup("rmi://127.0.0.1/RemoteHello");
+      String s = service.sayHello();
+      System.out.println(s);
+*/
 
       Registry registry = LocateRegistry.getRegistry(host, 9981);
       MyRemote stub = (MyRemote) registry.lookup("HelloServer");
