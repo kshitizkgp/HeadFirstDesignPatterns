@@ -1,4 +1,4 @@
-package chapterTwelveCompoundPatterns;
+package chapterTwelveCompoundPatterns.patternOfPatterns;
 
 public class RubberDuck implements Quackable {
 

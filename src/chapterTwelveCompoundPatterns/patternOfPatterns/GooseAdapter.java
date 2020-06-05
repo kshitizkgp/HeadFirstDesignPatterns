@@ -1,15 +1,18 @@
-package chapterTwelveCompoundPatterns;
+package chapterTwelveCompoundPatterns.patternOfPatterns;
 
-public class DuckCall implements Quackable {
+public class GooseAdapter implements Quackable {
+
+  Goose goose;
   Observable observable;
 
-  public DuckCall() {
+  public GooseAdapter(Goose goose) {
+    this.goose = goose;
     this.observable = new Observable(this);
   }
 
   @Override
   public void quack() {
-    System.out.println("Kwak");
+    goose.honk();
     notifyObservers();
   }
 
@@ -23,6 +26,4 @@ public class DuckCall implements Quackable {
   public void notifyObservers() {
     observable.notifyObservers();
   }
-
-
 }

@@ -1,4 +1,4 @@
-package chapterTwelveCompoundPatterns;
+package chapterTwelveCompoundPatterns.patternOfPatterns;
 
 
 public interface Quackable extends QuackObservable {

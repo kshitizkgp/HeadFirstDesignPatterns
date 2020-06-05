@@ -1,4 +1,4 @@
-package chapterTwelveCompoundPatterns;
+package chapterTwelveCompoundPatterns.patternOfPatterns;
 
 public abstract class AbstractDuckFactory {
   public abstract Quackable createMallardDuck();

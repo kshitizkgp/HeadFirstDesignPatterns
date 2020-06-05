@@ -1,4 +1,4 @@
-package chapterTwelveCompoundPatterns;
+package chapterTwelveCompoundPatterns.patternOfPatterns;
 
 public class Quackologist implements Observer {
 

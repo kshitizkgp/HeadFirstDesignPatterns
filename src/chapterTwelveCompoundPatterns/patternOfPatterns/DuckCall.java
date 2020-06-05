@@ -1,16 +1,18 @@
-package chapterTwelveCompoundPatterns;
+package chapterTwelveCompoundPatterns.patternOfPatterns;
 
-public class MallardDuck implements Quackable {
+public class DuckCall implements Quackable {
   Observable observable;
 
-  public MallardDuck() {
-    observable = new Observable(this);
+  public DuckCall() {
+    this.observable = new Observable(this);
   }
 
+  @Override
   public void quack() {
-    System.out.println("Quack");
+    System.out.println("Kwak");
     notifyObservers();
   }
+
 
   @Override
   public void registerObserver(Observer observer) {
@@ -21,4 +23,6 @@ public class MallardDuck implements Quackable {
   public void notifyObservers() {
     observable.notifyObservers();
   }
+
+
 }

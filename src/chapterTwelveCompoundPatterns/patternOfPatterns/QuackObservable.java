@@ -1,4 +1,4 @@
-package chapterTwelveCompoundPatterns;
+package chapterTwelveCompoundPatterns.patternOfPatterns;
 
 public interface QuackObservable {
   public void registerObserver(Observer observer);
