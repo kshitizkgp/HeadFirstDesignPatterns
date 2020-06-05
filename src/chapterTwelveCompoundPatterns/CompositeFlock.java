@@ -3,7 +3,7 @@ package chapterTwelveCompoundPatterns;
 import java.util.ArrayList;
 import java.util.Iterator;
 
-public class Flock implements Quackable {
+public class CompositeFlock implements Quackable {
   ArrayList quackers = new ArrayList();
 
   public void add(Quackable quacker) {
